@@ -11,6 +11,7 @@ public class LevelEndTrigger : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
+            // the level completion trigger
             gameManager.CompleteLevel();
             
         }
